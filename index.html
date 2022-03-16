@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue Intro</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <!-- Vue.Js -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
@@ -19,7 +21,7 @@
 
         <input v-model="url" type="text">
 
-        <div id="containerImg">
+        <div v-bind:class="url">
 
             
         </div>

@@ -7,12 +7,11 @@ const app = new Vue(
         el: "#app",
         data :{
             message : "ciao", 
-            url : ""   
+            url : "https://cdn.bhdw.net/im/league-of-legends-lol-dark-spirit-morgana-sfondo-64398_w635.jpg",
+            classe: "containerImg"  
         }
     }
 )
 
 
-let img = document.getElementById("containerImg")
 
-img.innerHTML += `<img src="${app.data.url} " alt="" id="myImg">`
